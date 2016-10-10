@@ -43,7 +43,7 @@ Function Main
             foreach ($file in $files)
             {#Delete each item
                 CreateOutput (“Deleting file: " + $file) $outputLogFile "Yellow”
-                #Remove-Item $File -ErrorAction SilentlyContinue | out-null
+                Remove-Item $File -ErrorAction SilentlyContinue | out-null
             }
         }
         else
