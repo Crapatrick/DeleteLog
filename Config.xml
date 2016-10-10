@@ -1,0 +1,17 @@
+<Settings>
+	<Global>
+		<OutputLog>D:\Path\To\Log\Folder\</OutputLog>
+		<FileAge>30</FileAge>
+		<FileExtention>*.log</FileExtention>
+	</Global>
+	<LogFileDirectories>
+		<Directory>
+			<Path>D:\Some\Path\With\Log\Files</Path>
+			<FileAge>1</FileAge>
+			<FileExtention>*.*</FileExtention>
+		</Directory>
+		<Directory>
+			<Path>\\remoteserver\d$\Logs\</Path>
+		</Directory>
+	</LogFileDirectories>
+</Settings>
